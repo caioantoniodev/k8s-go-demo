@@ -8,5 +8,5 @@ func main() {
 }
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("<h1>Poc K8S</h1>"))
+	w.Write([]byte("<h1>Simple API for POC K8S</h1>"))
 }
