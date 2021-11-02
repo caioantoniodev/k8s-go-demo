@@ -13,11 +13,11 @@ spec:
         app: poc-k8s
     spec:
       containers:
-      - name: goserver
-        image: ca1o19c/poc-k8s:latest
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
-        ports:
-        - containerPort: 3000
+        - name: goserver
+          image: ca1o19c/poc-k8s:latest
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 3000
