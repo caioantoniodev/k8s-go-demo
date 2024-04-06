@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s-go-demo
+  labels:
+    name: k8s-go-demo
+spec:
+  containers:
+    - name: k8s-go-demo 
+      image: caioantonio/k8s-go-demo
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
+      ports:
+        - containerPort: 3000
