@@ -1,1 +1,1 @@
-# K8S GO Demo
+# K8S GO API Demo
